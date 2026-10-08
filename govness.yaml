@@ -1,0 +1,18 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "ph-digital-public-services.citizen-query-router"
+name: "Citizen query router"
+type: "plugin"
+version: "0.9.0"
+summary: "Agent plugin that routes citizen questions to the right agency's assistant over A2A."
+description: "A plugin for agent platforms that recognizes which agency a question belongs to and hands it over through the A2A protocol, keeping the conversation history."
+publisher:
+  environment: "ph-digital-public-services"
+  body: "Bureau of Digital Public Services"
+languages: ["en", "tl"]
+license: "MIT"
+interfaces:
+  protocol: "a2a"
+links:
+  repo: "https://github.com/govness-demo/citizen-query-router"
+domains: ["citizen-engagement", "digital-services"]
